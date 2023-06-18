@@ -1,0 +1,34 @@
+#stations-container {
+  position: absolute;
+  left: 50%;
+  top: 20vh;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.2);
+  width: 335px;
+  height: 235px;
+}
+.station-active {
+  position: absolute;
+  color: papayawhip;
+  text-align: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background-color: green !important;
+}
+.station-inactive {
+  position: absolute;
+  color: papayawhip;
+  text-align: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background-color: blue !important;
+}

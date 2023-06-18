@@ -1,0 +1,38 @@
+.programs {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.stations {
+  height: calc(20vh + 235px);
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.indicator-line{
+  padding: 10px;
+  border: solid 2px black;
+  width: 15vw;
+  margin-top: 10px;
+}
+.indicators{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 8vh;
+}
+.indicators-left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.indicators-right{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

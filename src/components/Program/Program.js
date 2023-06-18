@@ -1,5 +1,5 @@
 import "./Program.css";
-export default function Program({ number, pieces, theorique }) {
+export default function Program({ number, pieces, theorique, scum }) {
   return (
     <div className="program-container">
       <div className="program-line">
@@ -12,6 +12,14 @@ export default function Program({ number, pieces, theorique }) {
       <div className="program-line">
         <div>théorique : </div>
         <div>{theorique}</div>
+      </div>
+      <div className="program-line">
+        <div>rebut : </div>
+        <div>{scum}</div>
+      </div>
+      <div className="program-line">
+        <div>pieces bonnes : </div>
+        <div>{pieces - scum}</div>
       </div>
     </div>
   );
