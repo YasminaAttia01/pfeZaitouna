@@ -4,7 +4,7 @@ var axiosInstance;
 
 let generateAxiosInstance = () => {
   axiosInstance = axios.create({
-    baseURL: `http://localhost:7000/api`,
+    baseURL: `http://51.77.200.112:7000/api`,
     headers: {
       "Content-Type": "application/json",
     },
